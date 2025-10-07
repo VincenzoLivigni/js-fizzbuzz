@@ -16,5 +16,11 @@ tools:
 
 // Scrivi un programma che stampi i numeri da 1 a 100
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
+    if (i % 3 === 0) {
+        // per i multipli di 3 stampi “Fizz”
+        console.log("Fizz");
+    } else {
+        // per i numeri restanti
+        console.log(i);
+    } 
 }
